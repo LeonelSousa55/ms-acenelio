@@ -1,0 +1,7 @@
+# Find All
+###
+http://localhost:8001/workers
+
+# Find By Id
+###
+http://localhost:8001/workers/1
