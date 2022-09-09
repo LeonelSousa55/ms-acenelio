@@ -1,3 +1,7 @@
 # Payment
 ###
 http://localhost:8101/payments/1/days/20
+
+# Payment with gateway-zuul
+###
+http://localhost:8765/hr-payroll/payments/1/days/20

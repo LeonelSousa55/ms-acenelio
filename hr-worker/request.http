@@ -9,3 +9,11 @@ http://localhost:8001/workers/1
 # Find By Id - 8002
 ###
 http://localhost:8002/workers/1
+
+# Find All With Gateway-zull
+###
+http://localhost:8765/hr-worker/workers
+
+# Find by id With Gateway-zuul
+###
+http://localhost:8765/hr-worker/workers/1
