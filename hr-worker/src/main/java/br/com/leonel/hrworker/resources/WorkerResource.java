@@ -21,18 +21,27 @@ public class WorkerResource {
 
     @Autowired
     private Environment env;
-    
+
     @Autowired
     private WorkerRepository repository;
 
     @GetMapping
-    public ResponseEntity<List<Worker>> fingAll(){
+    public ResponseEntity<List<Worker>> fingAll() {
         List<Worker> list = repository.findAll();
         return ResponseEntity.ok(list);
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<Worker> fingById(@PathVariable Long id){
+    public ResponseEntity<Worker> fingById(@PathVariable Long id) {
+
+        /*
+         * try {
+         * Thread.sleep(3000L);
+         * } catch (InterruptedException e) {
+         * // TODO Auto-generated catch block
+         * e.printStackTrace();
+         * }
+         */
 
         log.info("Port of Worker = {}", env.getProperty("local.server.port"));
 
