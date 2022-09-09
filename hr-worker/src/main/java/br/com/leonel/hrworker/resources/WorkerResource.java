@@ -34,14 +34,12 @@ public class WorkerResource {
     @GetMapping(value = "/{id}")
     public ResponseEntity<Worker> fingById(@PathVariable Long id) {
 
-        /*
-         * try {
-         * Thread.sleep(3000L);
-         * } catch (InterruptedException e) {
-         * // TODO Auto-generated catch block
-         * e.printStackTrace();
-         * }
-         */
+        // try {
+        //     Thread.sleep(3000L);
+        // } catch (InterruptedException e) {
+        //     // TODO Auto-generated catch block
+        //     e.printStackTrace();
+        // }
 
         log.info("Port of Worker = {}", env.getProperty("local.server.port"));
 
