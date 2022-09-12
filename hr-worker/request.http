@@ -24,4 +24,4 @@ http://localhost:8765/hr-worker/workers/configs
 
 # Actuator refresh
 ###
-http://localhost:8765/hr-worker/actuator/refresh
+Post http://localhost:8765/hr-worker/actuator/refresh
