@@ -17,3 +17,7 @@ http://localhost:8765/hr-worker/workers
 # Find by id With Gateway-zuul
 ###
 http://localhost:8765/hr-worker/workers/1
+
+# Show woeker configs on console
+###
+http://localhost:8765/hr-worker/workers/configs
