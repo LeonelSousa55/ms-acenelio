@@ -21,3 +21,7 @@ http://localhost:8765/hr-worker/workers/1
 # Show woeker configs on console
 ###
 http://localhost:8765/hr-worker/workers/configs
+
+# Actuator refresh
+###
+http://localhost:8765/hr-worker/actuator/refresh
