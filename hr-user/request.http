@@ -1,0 +1,13 @@
+# Find By Id
+###
+http://localhost:8765/hr-user/users/1
+
+###
+http://localhost:8765/hr-user/users/2
+
+# Find By Email
+###
+http://localhost:8765/hr-user/users/search?email=nina@gmail.com
+
+###
+http://localhost:8765/hr-user/users/search?email=leia@gmail.com
