@@ -25,3 +25,8 @@ http://localhost:8765/hr-worker/workers/configs
 # Actuator refresh
 ###
 Post http://localhost:8765/hr-worker/actuator/refresh
+
+# Find All With Gateway-zull with token of login
+###
+http://localhost:8765/hr-worker/workers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMzMzU2NTcsInVzZXJfbmFtZSI6Im5pbmFAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9PUEVSQVRPUiJdLCJqdGkiOiI1NTM0ZDRmMS01OGZkLTRmNmUtOTdkOC0yZTZmYmRhZDFjNDEiLCJjbGllbnRfaWQiOiJteWFwcG5hbWUxMjMiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.SjowwULMPsEuCZd9BoL0jjUotXer6AZXyKRyAYKuOUo

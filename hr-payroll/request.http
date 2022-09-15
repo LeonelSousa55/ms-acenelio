@@ -5,3 +5,8 @@ http://localhost:8101/payments/1/days/20
 # Payment with gateway-zuul
 ###
 http://localhost:8765/hr-payroll/payments/1/days/20
+
+# Payment with gateway-zuul with token of login
+###
+http://localhost:8765/hr-payroll/payments/1/days/20
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjMzMzU5ODUsInVzZXJfbmFtZSI6ImxlaWFAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9PUEVSQVRPUiIsIlJPTEVfQURNSU4iXSwianRpIjoiODM5OTI0M2UtNTJiMi00ZDlmLWFlZTYtNTI1MTYxYTYzNWZhIiwiY2xpZW50X2lkIjoibXlhcHBuYW1lMTIzIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl19.wcyo_MiTLnhDSfP1ArdvyfMHf4VO_Io6br8gMJUOFOQ
