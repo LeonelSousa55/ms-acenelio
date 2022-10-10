@@ -8,6 +8,12 @@
 
 Seguindo o curso do Nélio Alves presente no seu [bootcamp](https://devsuperior.com.br), referente ao repositório: [acenelio](https://github.com/acenelio/ms-course).
 
+## Ordem de execução das aplicações:
+### 1ª - HrEurekaServerApplication
+### 2ª - HrConfigServerApplication
+### 3ª - HrApiGatewayZuulApplication
+### 4ª - HrOauthApplication, HrPayrollApplication, HrUserApplication, HrWorkerApplication
+
 ## :rocket: Minhas Skills
 ### Experiências com desenvolvimentos
 ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
