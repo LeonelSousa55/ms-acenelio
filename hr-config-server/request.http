@@ -1,7 +1,19 @@
-# hr-worker config default profive
+# hr-worker config default
 ###
 http://localhost:8888/hr-worker/default
 
-# hr-worker config test profile
+# hr-worker configs
+###
+http://localhost:8888/hr-worker/dev
+###
+http://localhost:8888/hr-worker/prod
 ###
 http://localhost:8888/hr-worker/test
+
+# hr-user configs
+###
+http://localhost:8888/hr-user/dev
+###
+http://localhost:8888/hr-user/prod
+###
+http://localhost:8888/hr-user/test
