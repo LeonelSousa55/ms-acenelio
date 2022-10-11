@@ -25,15 +25,12 @@ public class WorkerResource {
     @Autowired
     private Environment env;
 
-    @Value("${test.config}")
-    private String testConfig;
-
     @Autowired
     private WorkerRepository repository;
 
     @GetMapping(value = "/configs")
     public ResponseEntity<Void> getConfigs() {
-        log.info("CONFIG = {}", testConfig);
+        //log.info("CONFIG = {}", testConfig);
         return ResponseEntity.noContent().build();
     }
 
@@ -47,10 +44,10 @@ public class WorkerResource {
     public ResponseEntity<Worker> fingById(@PathVariable Long id) {
 
         // try {
-        //     Thread.sleep(3000L);
+        // Thread.sleep(3000L);
         // } catch (InterruptedException e) {
-        //     // TODO Auto-generated catch block
-        //     e.printStackTrace();
+        // // TODO Auto-generated catch block
+        // e.printStackTrace();
         // }
 
         log.info("Port of Worker = {}", env.getProperty("local.server.port"));
